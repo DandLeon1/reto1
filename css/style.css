@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.contenedor{
+    margin: 20px;
+    padding: 40px;
+    width: 40%;
+    height: auto;
+    border: 2px solid black;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(137,253,45,1) 100%);
+    border-radius: 6%;
+    position: relative;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    left: 25%;
+    
+}
+
+img{
+    width:40%;
+    height: auto;
+    position: relative;
+    bottom: 10px;
+    left: 20%;
+   
+}
+.title-card{
+    font-size: 18px ;
+    margin-bottom: 30px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.control{
+    width: 50%;
+    height: auto;
+    background: rgb(215,214,239);
+    background: linear-gradient(90deg, rgba(215,214,239,0.7764355742296919) 0%, rgba(238,238,238,0.8940826330532213) 36%);
+    border-radius: 10%;
+    padding: 2px;
+    margin: 2px;
+    outline: none;
+    text-align: left;
+
+
+  
+}
+.control:hover{
+    padding: 3px;
+    margin: 3px;
+    background-color: rgb(232, 248, 230);
+    border: 2px solid rgb(171, 221, 162);
+}
+
+
+
+.precio{
+    font-size: 18px ;
+    margin-top: 10px;
+    text-align:left;
+    text-decoration: none;
+
+}
+
+.btn{
+    width: 20%;
+    height: auto;
+    border: 2px solid rgba(180, 209, 247, 0.689);
+    border-radius: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    outline: none;
+    background: rgb(215,214,239);
+    background: linear-gradient(90deg, rgba(215,214,239,0.7764355742296919) 0%, rgba(238,238,238,0.8940826330532213) 36%);
+    text-align: center;
+
+
+
+}
+
+.print{
+    position: absolute;
+    left: 75%;
+    top: 50%;
+}
+
+.control>value>r{
+    background-color: red;
+    border: 2px solid;
+    border-radius: 60%;
+
+}
+
+.circulo{
+   
+    height: 35px;
+    width: 35px;
+   
+    border-radius: 50%;
+
+}

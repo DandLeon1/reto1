@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Reto 1</title>
+</head>
+<body>
+    <form class="contenedor" id="contenedor">
+        <img src="./assets/img/Product_202203051158231517646010.png" alt="computador">
+        <h1 class="title-card">Laptop gamer AMD</h1>
+        <label for="cantidad"></label>
+        <input
+        class="control"
+        id="cantidad"
+        name="cantidad"
+        placeholder="ingresar cantidad"
+        type="number"                    
+        required
+        /><br><br>
+         <select class="control" name="color" id="color">
+            <option   value="0" selected>Seleccione un color</option>
+            <option   value="rojo">rojo</option>
+            <option   value="verde">verde</option>
+            <option   value="azul">azul</option>
+            <option   value="negro">negro</option>
+        </select>
+
+        <h1 class="precio" >Precio: 400.000</h1><br><br>
+        
+
+        <button class="btn" id="btnTotal " type="submit">Calcular total</button>                
+       
+    </form>  
+    <section class="print">
+        <h1 class="paint" id="print"></h1>
+      
+    </section>       
+    
+ 
+
+
+    <script  src="./scripts/main.js"></script> 
+</body>
+
+</html>
